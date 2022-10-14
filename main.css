@@ -10,6 +10,8 @@ h1{
     text-align: center;
 }
 
+
+/* navbar */
 .navbar ul {
     list-style-type: none;
     display: flex;
@@ -20,22 +22,33 @@ h1{
     display: block;
     padding: 15px;
     background-color: #656565;
+    transition: 0.7s all;
 }
 .navbar li{
     margin: 5px;
+    margin-left: 20px;
 }
 .navbar li a:hover{
     background-color: white;
     color: #656565;
-    transition: 0.5s all;
+    transition: 0.7s all;
 }
 .navbar{
     background-color: black;
-    margin: 0;
+    margin: 0;    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
-.navbar .title{
-    font-size: 1.5rem;
+.navbar .Title{
+    padding: 28px;
+    font-size: 1.5em;
+    background-color: #656565;
+    font-weight: bold;
 }
+
 
 /* CSS utilisé sur la page rock */
 
@@ -55,6 +68,7 @@ body.rock .blue{
 Body.rock .first{
     margin-left:300px;
     margin-right: 300px;
+    margin-top: 120px;
 }
 body.rock .sumUp{
     margin-left: 100px;
