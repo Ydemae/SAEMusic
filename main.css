@@ -10,6 +10,33 @@ h1{
     text-align: center;
 }
 
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px;
+    background-color: #656565;
+}
+.navbar li{
+    margin: 5px;
+}
+.navbar li a:hover{
+    background-color: white;
+    color: #656565;
+    transition: 0.5s all;
+}
+.navbar{
+    background-color: black;
+    margin: 0;
+}
+.navbar .title{
+    font-size: 1.5rem;
+}
+
 /* CSS utilisé sur la page rock */
 
 body.rock{
@@ -17,8 +44,20 @@ body.rock{
     color: white;
 }
 body.rock div.middle{
+    padding-top: 10px;
     background-color: rgba(255,255,255,0.4);
 }
-body.rock h1{
+body.rock .blue{
     background-color: #0038FF;
+    padding: 10px;
+    margin: 10px;
+}
+Body.rock .first{
+    margin-left:300px;
+    margin-right: 300px;
+}
+body.rock .sumUp{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
 }
