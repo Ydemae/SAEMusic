@@ -1,10 +1,24 @@
+/* Css commun à toutes les pages */
+.middle{
+    margin-left: 100px;
+    margin-right: 100px;
+}
 .Flex{
     display: flex;
 }
 h1{
-    color: red;
+    text-align: center;
 }
 
-body {
-    background-color: teal;
+/* CSS utilisé sur la page rock */
+
+body.rock{
+    background-color: #3A3A3A;
+    color: white;
+}
+body.rock div.middle{
+    background-color: rgba(255,255,255,0.4);
+}
+body.rock h1{
+    background-color: #0038FF;
 }
