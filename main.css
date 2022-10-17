@@ -49,7 +49,7 @@ h1{
     font-weight: bold;
 }
 
-
+/* CSS utilisé pour les pages personnelles */
 /* CSS utilisé sur la page rock */
 
 body.rock{
@@ -74,4 +74,44 @@ body.rock .sumUp{
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 30px;
+}
+
+/*CSS de Matis */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.elec_body {
+    background: linear-gradient(rgb(169, 50, 38), #5F271F);
+    max-width: 1100px;
+    margin: auto;
+}
+
+.elec_content {
+    background-color: rgb(241, 148, 138);
+    padding: 10px 10px 10px 10px ;
+}
+
+.elec_title {
+    background-color: rgb(243, 156, 18);
+    text-align: center;
+}
+
+.elec_sumup {
+    background-color: rgb(243, 156, 18);
+    margin : 30px 100px 30px 100px;
+    padding: 2px 2px 2px 2px;
+}
+
+.yellow_box {
+    background-color :rgb(243, 156, 18);
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+}
+
+.redim {
+    max-width : 100%;
 }
