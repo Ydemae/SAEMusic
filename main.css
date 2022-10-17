@@ -1,4 +1,5 @@
 /* Css commun à toutes les pages */
+
 .middle{
     margin-left: 100px;
     margin-right: 100px;
@@ -12,6 +13,7 @@ h1{
 
 
 /* navbar */
+
 .navbar ul {
     list-style-type: none;
     display: flex;
@@ -76,7 +78,8 @@ body.rock .sumUp{
     margin-top: 30px;
 }
 
-/*CSS de Matis */
+/*CSS utilisé sur la page electro */
+
 .flex{
     display: flex;
     justify-content: center;
@@ -98,6 +101,7 @@ body.rock .sumUp{
 .elec_title {
     background-color: rgb(243, 156, 18);
     text-align: center;
+    margin: 120px 300px 0 300px;
 }
 
 .elec_sumup {
