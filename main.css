@@ -17,6 +17,9 @@
 h1{
     text-align: center;
 }
+.blue{
+    background-color: #0038FF;
+}
 .first{
     margin-left:300px;
     margin-right: 300px;
@@ -29,6 +32,16 @@ h1{
     margin : 30px 100px 30px 100px;
     padding: 2px 2px 2px 2px;
 }
+.box {
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+}
+.yellow{
+    background-color: rgb(243, 156, 18);
+}
+.redim {
+    max-width : 100%;
+}  
 
 /* navbar */
 
@@ -76,16 +89,6 @@ body.rock{
     background-color: #3A3A3A;
     color: white;
 }
-body.rock .blue{
-    background-color: #0038FF;
-    padding: 10px;
-    margin: 10px;
-}
-body.rock .sumUp{
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 30px;
-}
 /*CSS utilisé sur la page electro */
 
 body.elec {
@@ -93,19 +96,7 @@ body.elec {
     max-width: 1100px;
     margin: auto;
 }
-
 .elec_content {
     background-color: rgb(241, 148, 138);
     padding: 10px 10px 10px 10px ;
 }
-.box {
-    margin: 10px 10px 10px 10px;
-    padding: 10px;
-}
-.yellow{
-    background-color: rgb(243, 156, 18);
-}
-
-.redim {
-    max-width : 100%;
-}  
