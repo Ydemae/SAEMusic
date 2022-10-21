@@ -1,4 +1,5 @@
 /* Css commun à toutes les pages */
+
 .middle{
     max-width: 1100px;
     margin: auto;
@@ -30,6 +31,7 @@ h1{
 }
 
 /* navbar */
+
 .navbar ul {
     list-style-type: none;
     display: flex;
@@ -84,8 +86,7 @@ body.rock .sumUp{
     margin-right: 100px;
     margin-top: 30px;
 }
-
-/*CSS de Matis */
+/*CSS utilisé sur la page electro */
 
 body.elec {
     background: linear-gradient(rgb(169, 50, 38), #5F271F);
@@ -97,8 +98,6 @@ body.elec {
     background-color: rgb(241, 148, 138);
     padding: 10px 10px 10px 10px ;
 }
-
-
 .box {
     margin: 10px 10px 10px 10px;
     padding: 10px;
