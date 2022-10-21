@@ -45,6 +45,10 @@
 .redim {
     max-width : 100%;
 }
+.sumUp a{
+    text-decoration: none;
+    color: inherit;
+}
 
 /* navbar */
 
