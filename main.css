@@ -1,10 +1,17 @@
 /* Css commun à toutes les pages */
 .middle{
-    margin-left: 100px;
-    margin-right: 100px;
+    max-width: 1100px;
+    margin: auto;
+    background-color: rgba(255,255,255,0.4);
+}
+.FlexNav{
+    display: flex;
 }
 .Flex{
     display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 h1{
     text-align: center;
@@ -13,6 +20,13 @@ h1{
     margin-left:300px;
     margin-right: 300px;
     margin-top: 120px;
+}
+.title {
+    text-align: center;
+}
+.sumUp {
+    margin : 30px 100px 30px 100px;
+    padding: 2px 2px 2px 2px;
 }
 
 /* navbar */
@@ -60,10 +74,6 @@ body.rock{
     background-color: #3A3A3A;
     color: white;
 }
-body.rock div.middle{
-    padding-top: 10px;
-    background-color: rgba(255,255,255,0.4);
-}
 body.rock .blue{
     background-color: #0038FF;
     padding: 10px;
@@ -76,14 +86,8 @@ body.rock .sumUp{
 }
 
 /*CSS de Matis */
-.flex{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
 
-.elec_body {
+body.elec {
     background: linear-gradient(rgb(169, 50, 38), #5F271F);
     max-width: 1100px;
     margin: auto;
@@ -94,23 +98,15 @@ body.rock .sumUp{
     padding: 10px 10px 10px 10px ;
 }
 
-.elec_title {
-    background-color: rgb(243, 156, 18);
-    text-align: center;
-}
 
-.elec_sumup {
-    background-color: rgb(243, 156, 18);
-    margin : 30px 100px 30px 100px;
-    padding: 2px 2px 2px 2px;
-}
-
-.yellow_box {
-    background-color :rgb(243, 156, 18);
+.box {
     margin: 10px 10px 10px 10px;
     padding: 10px;
+}
+.yellow{
+    background-color: rgb(243, 156, 18);
 }
 
 .redim {
     max-width : 100%;
-}
+}  
