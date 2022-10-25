@@ -1,10 +1,9 @@
-/* Css commun à toutes les pages */ 
+/* Css commun à toutes les pages */
 
 .middle{
+    max-width: 1100px;
     margin: auto;
     background-color: rgba(255,255,255,0.4);
-    padding: 10px 10px 10px 10px ;
-    max-width: 1100px;
 }
 .FlexNav{
     display: flex;
@@ -14,6 +13,9 @@
     justify-content: center;
     align-content: center;
     align-items: center;
+}
+h1{
+    text-align: center;
 }
 .blue{
     background-color: #0038FF;
@@ -33,12 +35,7 @@
     margin : 30px 100px 30px 100px;
     padding: 2px 2px 2px 2px;
 }
-.textbox {
-    margin: 10px 10px 10px 10px;
-    padding: 10px;
-    width: 600px;
-}
-.contentbox{
+.box {
     margin: 10px 10px 10px 10px;
     padding: 10px;
 }
@@ -47,11 +44,8 @@
 }
 .redim {
     max-width : 100%;
-}
-.sumUp a{
-    text-decoration: none;
-    color: inherit;
-}
+}  
+
 
 /* navbar */
 
@@ -91,32 +85,19 @@
     background-color: #656565;
     font-weight: bold;
 }
-.dropdown{
-    display: none;
-}
-/* CSS utilisé pour les pages personnelles */
-/* CSS utilisé sur la page rock */
 
-body.rock{
-    background-color: #3A3A3A;
-    color: white;
-    max-width: 1100px;
-    margin: auto;
-}
-/*CSS utilisé sur la page electro */
-
-body.elec {
-    background: linear-gradient(rgb(169, 50, 38), #5F271F);
-}
-.elec_content {
-    background-color: rgb(241, 148, 138);
-    padding: 10px 10px 10px 10px ;
-    margin: auto;
-    max-width: 1100px;
-}
 /*CSS Pop*/
 body.pop {
     background-color: #8D00CF;
     max-width: 1100px;
     margin: auto;
+}
+.middle {
+    background-color: (255, 255, 255, 0.4);
+    padding: 10px 10px 10px 10px ;
+    
+}
+.contentbox{
+    margin: 10px;
+    padding: 10px;
 }
