@@ -88,7 +88,9 @@
     background-color: #656565;
     font-weight: bold;
 }
-
+.dropdown{
+    display: none;
+}
 /* CSS utilisé pour les pages personnelles */
 /* CSS utilisé sur la page rock */
 
