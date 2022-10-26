@@ -1,9 +1,12 @@
-.FlexNav{
-    display: flex;
-}
 .title {
     text-align: center;
 }
+
+/* CSS de la navbar*/
+.FlexNav{
+    display: flex;
+}
+
 .navbar ul {
     display: none;
 }
@@ -32,16 +35,15 @@
 }
 .Delem{
     display: none;
-    position: absolute;
+    position: relative;
     background-color:black;
     width: 100%;
     z-index: 1;
-    overflow: auto;
 }
 .dropdown:hover .Delem {
     display: flex;
     flex-direction: column;
-    font-size: 1em;
+    font-size: 1.3em;
 }
 .menu{
     font-size: 1.5em;
