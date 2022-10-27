@@ -11,10 +11,17 @@
 a{
     color: inherit;
 }
+.normalbox{
+    padding: 10px;
+    margin: 15px 60px 15px 50px;
+}
+.transparentwhite{
+    background-color: rgba(255, 255, 255, 0.4);
+}
 .middle{
     margin: auto;
     background-color: rgba(255,255,255,0.4);
-    padding: 10px 10px 10px 10px ;
+    padding: 10px ;
     max-width: 1100px;
 }
 .FlexNav{
@@ -156,9 +163,5 @@ body.contact{
     padding: 10px 10px 10px 10px;
     margin: auto;
     max-width: 1100px;
-}
-.contactbox{
-    padding: 10px;
-    margin: 15px 60px 15px 50px;
 }
 /* */
