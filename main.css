@@ -1,4 +1,4 @@
-/* Css commun à toutes les pages */
+/* Css commun à toutes les pages */ 
 
 .middle{
     margin: auto;
@@ -17,6 +17,9 @@
 }
 .blue{
     background-color: #0038FF;
+}
+.pink{
+    background-color: #EB00FF ;
 }
 .first{
     margin-left:300px;
@@ -88,7 +91,9 @@
     background-color: #656565;
     font-weight: bold;
 }
-
+.dropdown{
+    display: none;
+}
 /* CSS utilisé pour les pages personnelles */
 /* CSS utilisé sur la page rock */
 
@@ -108,4 +113,10 @@ body.elec {
     padding: 10px 10px 10px 10px;
     margin: auto;
     max-width: 1100px;
+}
+/*CSS Pop*/
+body.pop {
+    background-color: #8D00CF;
+    max-width: 1100px;
+    margin: auto;
 }
