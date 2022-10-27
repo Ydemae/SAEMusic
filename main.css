@@ -35,6 +35,9 @@ a{
 .indexblue{
     background-color: #004E79;
 }
+.cyan{
+    background-color: #00E0FF;
+}
 .first{
     margin-left:300px;
     margin-right: 300px;
@@ -45,15 +48,15 @@ a{
 }
 .sumUp {
     margin : 30px 100px 30px 100px;
-    padding: 2px 2px 2px 2px;
+    padding: 2px;
 }
 .textbox {
-    margin: 10px 10px 10px 10px;
+    margin: 10px;
     padding: 10px;
     width: 600px;
 }
 .contentbox{
-    margin: 10px 10px 10px 10px;
+    margin: 10px;
     padding: 10px;
 }
 .yellow{
@@ -124,7 +127,7 @@ body.elec {
 }
 .elec_content {
     background-color: rgb(241, 148, 138);
-    padding: 10px 10px 10px 10px ;
+    padding: 10px 10px 10px 10px;
     margin: auto;
     max-width: 1100px;
 }
@@ -143,3 +146,19 @@ body.accueil{
     max-width: 1100px;
     margin: auto;
 }
+/*CSS utilisé pour la page contact */
+
+body.contact{
+    background-color: #000D81;
+}   
+.contact_content{
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    max-width: 1100px;
+}
+.contactbox{
+    padding: 10px;
+    margin: 15px 60px 15px 50px;
+}
+/* */
