@@ -1,5 +1,16 @@
 /* Css commun à toutes les pages */ 
 
+@font-face {
+    font-family: neonSans;
+    src: url(NeonSans.otf);
+}
+.NavTitle{
+    font-family: neonSans;
+    color: white;
+}
+a{
+    color: inherit;
+}
 .middle{
     margin: auto;
     background-color: rgba(255,255,255,0.4);
@@ -20,6 +31,9 @@
 }
 .pink{
     background-color: #EB00FF ;
+}
+.indexblue{
+    background-color: #004E79;
 }
 .first{
     margin-left:300px;
@@ -117,6 +131,15 @@ body.elec {
 /*CSS Pop*/
 body.pop {
     background-color: #8D00CF;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* CSS utilisé pour les pages "utilitaires" */
+
+body.accueil{
+    background-color: #58D7FF;
+    color: white;
     max-width: 1100px;
     margin: auto;
 }
