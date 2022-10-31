@@ -131,7 +131,11 @@ body.elec {
     margin: auto;
     max-width: 1100px;
 }
-/*CSS Pop*/
+.space{
+    margin-top: 80px;
+}
+/*CSS utilisé sur la page pop*/
+
 body.pop {
     background-color: #8D00CF;
     max-width: 1100px;
