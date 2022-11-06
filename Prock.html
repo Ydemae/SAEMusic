@@ -2,16 +2,20 @@
 <html>
     <head>
         <meta charset="UTF-8" />
+        <!--Utilisation d'un media pour mettre une condition à l'utilisation de chaque css, de cette manière le css s'adaptera à la résolution de l'écran (ou taille de la fenêtre)-->
         <link rel="stylesheet" media="screen and (min-width:801px)"href="main.css" />
         <link rel="stylesheet" media="screen and (max-width:800px)" href="mainmob.css" />
         <meta name="viewport" content="width=max-device-width, initial-scale:1" />
         <title>MusicPlace</title>
     </head>
+    <!--Affectation d'une classe spécifique au body afin de pouvoir modifier seulement cette page sans influer sur les autres body des autres pages-->
     <body class="rock">
+        <!--Barre de navigation-->
         <nav class="navbar">
             <div class="FlexNav">
                 <div class="NavTitle">MusicPlace</div>
                 <div class="Links">
+                    <!--Menu de navigation pour pc-->
                     <ul>
                         <li><a href="index.html">Accueil</a></li>
                         <li><a href="contact.html">Contact</a></li>
@@ -21,6 +25,7 @@
                         <li><a href="PElec.html">Electro</a></li>
                         <li><a href="PRap.html">Rap</a></li>
                     </ul>
+                    <!--Menu de navigation pour mobile-->
                     <div class="dropdown">
                         <div class="menu">Menu</div>
                         <div class="Delem">
@@ -33,10 +38,10 @@
                             <a href="PRap.html">Rap</a>
                         </div>
                     </div>
-                    </div>
                 </div>
             </div>
         </nav>
+        <!--Classe middle permettant de créer un bandeau central contenant la première partie du contenu-->
         <div class="middle transparentwhite">
             <h1 class="first blue title">Page Rock</h1>
             <div class="sumUp blue">
