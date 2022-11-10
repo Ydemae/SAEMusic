@@ -1,12 +1,6 @@
 /* Css commun à toutes les pages */ 
 
-body{
-    font-family: Arial, sans-serif;
-}
-a{
-    text-decoration: none;
-}
-
+/*CSS permettant la mise en forme */
 .title {
     text-align: center;
 }
@@ -15,6 +9,23 @@ a{
     margin-right: 150px;
     margin-top: 100px;
 }
+.Flex{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.middle{
+    padding: 10px;
+}
+.sumUp a{
+    text-decoration: none;
+}
+a{
+    color: inherit;
+}
+/*Css permettant la création de boites de contenu */
 .sumUp {
     margin : 30px 100px 30px 100px;
     padding: 5px;
@@ -32,6 +43,7 @@ a{
     padding: 10px;
     margin: 15px 60px 15px 50px;
 }
+/*CSS permettant le changement de couleur du fond */
 .transparentwhite{
     background-color: rgba(255, 255, 255, 0.4);
 }
@@ -41,12 +53,8 @@ a{
 .yellow{
     background-color: rgb(243, 156, 18);
 }
-.Flex{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.blue{
+    background-color: #0038FF;
 }
 @font-face {
     font-family: neonSans;
@@ -55,6 +63,9 @@ a{
 .NavTitle{
     font-family: neonSans;
     color: white;
+}
+.indexblue{
+    background-color: #004E79;
 }
 
 /* CSS de la navbar*/
@@ -119,7 +130,15 @@ a{
     background-color:#656565 ;
     transition: 0.5s;
 }
+.pink{
+    background-color: #EB00FF ;
+}
 
+/* CSS utilisé pour la page Rock */
+body.rock{
+    background-color: #3A3A3A;
+    color: white;
+}
 /* CSS utilisé pour la page electro */
 body.elec {
     background: linear-gradient(rgb(169, 50, 38), #5F271F);
@@ -142,4 +161,23 @@ body.contact{
     margin: 0;
 }
 
-/* */
+/*Css utilisé pour la page Accueil*/
+body.accueil{
+    background-color: #58D7FF;
+    color: white;
+}
+/*CSS utilisé pour la page Sony*/
+.image{
+    background-image: url('images/sony_music.jpg');
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 90%;
+}  
+body.sony{
+    background-color: #918b8b;
+}
+
+article{
+    background-color: rgba(255, 255, 255, 0.4);
+    
+}

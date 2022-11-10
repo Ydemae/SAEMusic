@@ -42,7 +42,6 @@ a{
 }
 .sumUp a{
     text-decoration: none;
-    color: inherit;
 }
 /* Fin des classes de mise en forme */
 
@@ -85,6 +84,13 @@ a{
 }
 .yellow{
     background-color: rgb(243, 156, 18);
+}
+.darkblue{
+    background-color: rgba(119, 0, 255, 0.4);
+}
+.red
+{
+    background-color: rgba(251, 131, 163, 1);
 }
 /* fin des classes couleur*/
 
@@ -204,4 +210,16 @@ body.sony{
 article{
     background-color: rgba(255, 255, 255, 0.4);
     
+}
+/*CSS utilisé pour la page Rap*/
+div.Rap_content {
+    max-width: 1100px;
+    background-color: rgba(15, 255, 255, 0.4);
+    padding-top: 1%;
+}
+Body.rap {
+    max-width: 1100px;
+    margin: auto;
+    color: white;
+    font-family: Arial;
 }
