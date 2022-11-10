@@ -112,6 +112,9 @@
     background-color:#656565 ;
     transition: 0.5s;
 }
+.pink{
+    background-color: #EB00FF ;
+}
 
 /* CSS utilisé pour la page electro */
 body.elec {
@@ -136,3 +139,44 @@ body.contact{
 }
 
 /* */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CSS utilisé sur la page pop*/
+
+body.pop {
+    background-color: #8D00CF;
+    max-width: 1100px;
+    margin: auto;
+}
+/*CSS utilisé sur la page Sony */
+body.sony{
+    background-color: #918b8b;
+    
+}
+
+article{
+    background-color: rgba(255, 255, 255, 0.4);
+    
+}
+.image{
+    background-image: url('images/sony_music.jpg');
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 90%;
+}  
