@@ -3,6 +3,10 @@
 body{
     font-family: Arial, sans-serif;
 }
+a{
+    text-decoration: none;
+}
+
 /*Importation de la font neonSans*/
 @font-face {
     font-family: neonSans;
