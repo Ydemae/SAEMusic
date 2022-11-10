@@ -3,38 +3,67 @@
 body{
     font-family: Arial, sans-serif;
 }
+/*Importation de la font neonSans*/
 @font-face {
     font-family: neonSans;
     src: url(NeonSans.otf);
 }
-.NavTitle{
-    font-family: neonSans;
-    color: white;
-}
-a{
-    color: inherit;
-}
-.normalbox{
-    padding: 10px;
-    margin: 15px 60px 15px 50px;
-}
-.transparentwhite{
-    background-color: rgba(255, 255, 255, 0.4);
-}
-.middle{
-    margin: auto;
-    padding: 10px ;
-    max-width: 1100px;
-}
-.FlexNav{
-    display: flex;
-}
+
+
+/*Classes de mise en forme */
 .Flex{
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
 }
+.middle{
+    margin: auto;
+    padding: 10px ;
+    max-width: 1100px;
+}
+.first{
+    margin-left:300px;
+    margin-right: 300px;
+    margin-top: 120px;
+}
+.title {
+    text-align: center;
+}
+a{
+    color: inherit;
+}
+.redim {
+    max-width : 100%;
+}
+.sumUp a{
+    text-decoration: none;
+    color: inherit;
+}
+/* Fin des classes de mise en forme */
+
+/*Définition de classes pour créer des boites de contenu de différentes tailles */
+.normalbox{
+    padding: 10px;
+    margin: 15px 60px 15px 50px;
+}
+.textbox {
+    margin: 10px;
+    padding: 10px;
+    width: 600px;
+}
+.contentbox{
+    margin: 10px;
+    padding: 10px;
+}
+.sumUp {
+    margin : 30px 100px 30px 100px;
+    padding: 5px;
+}
+/*Fin des classes de boites de contenu */
+
+
+/* définition de classes pour changer la couleur du fond */
 .blue{
     background-color: #0038FF;
 }
@@ -47,37 +76,14 @@ a{
 .cyan{
     background-color: #00E0FF;
 }
-.first{
-    margin-left:300px;
-    margin-right: 300px;
-    margin-top: 120px;
-}
-.title {
-    text-align: center;
-}
-.sumUp {
-    margin : 30px 100px 30px 100px;
-    padding: 5px;
-}
-.textbox {
-    margin: 10px;
-    padding: 10px;
-    width: 600px;
-}
-.contentbox{
-    margin: 10px;
-    padding: 10px;
+.transparentwhite{
+    background-color: rgba(255, 255, 255, 0.4);
 }
 .yellow{
     background-color: rgb(243, 156, 18);
 }
-.redim {
-    max-width : 100%;
-}
-.sumUp a{
-    text-decoration: none;
-    color: inherit;
-}
+/* fin des classes couleur*/
+
 
 /* navbar */
 
@@ -116,10 +122,20 @@ a{
     font-size: 1.5em;
     background-color: #656565;
     font-weight: bold;
+    font-family: neonSans;
+    color: white;
 }
+/* On n'affiche pas le dropdown car il doit être visible uniquement sur la version mobile */
 .dropdown{
     display: none;
 }
+.FlexNav{
+    display: flex;
+}
+
+/* fin de la navbar*/
+
+
 /* CSS utilisé pour les pages personnelles */
 /* CSS utilisé sur la page rock */
 
@@ -151,7 +167,7 @@ body.pop {
     margin: auto;
 }
 
-/* CSS utilisé pour les pages "utilitaires" */
+/* CSS utilisé pour la page accueil */
 
 body.accueil{
     background-color: #58D7FF;
@@ -170,4 +186,18 @@ body.contact{
     max-width: 1100px;
 }
 
-/* */
+/*CSS utilisé pour la page Sony*/
+.image{
+    background-image: url('images/sony_music.jpg');
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 90%;
+}  
+body.sony{
+    background-color: #918b8b;
+}
+
+article{
+    background-color: rgba(255, 255, 255, 0.4);
+    
+}
