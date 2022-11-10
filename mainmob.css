@@ -64,6 +64,9 @@ a{
     font-family: neonSans;
     color: white;
 }
+.indexblue{
+    background-color: #004E79;
+}
 
 /* CSS de la navbar*/
 .FlexNav{
@@ -155,4 +158,8 @@ body.contact{
     margin: 0;
 }
 
-/* */
+/*Css utilisé pour la page Accueil*/
+body.accueil{
+    background-color: #58D7FF;
+    color: white;
+}
