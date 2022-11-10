@@ -200,3 +200,9 @@ article{
     background-color: rgba(255, 255, 255, 0.4);
     
 }
+/*CSS utilisé pour la page Rap*/
+div.Rap_content {
+    max-width: 1100px;
+    background-color: rgba(15, 255, 255, 0.4);
+    padding-top: 1%;
+}
