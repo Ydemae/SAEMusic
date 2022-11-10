@@ -1,5 +1,12 @@
 /* Css commun à toutes les pages */ 
 
+body{
+    font-family: Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
 .title {
     text-align: center;
 }
