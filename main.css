@@ -183,3 +183,50 @@ body.contact{
 }
 
 /* */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+body.sony{
+    background-color: #918b8b;
+    
+}
+
+article{
+    background-color: rgba(255, 255, 255, 0.4);
+    
+}
+.image{
+    background-image: url('images/sony_music.jpg');
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 90%;
+}  
