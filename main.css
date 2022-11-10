@@ -201,6 +201,8 @@ body.contact{
 }  
 body.sony{
     background-color: #918b8b;
+    margin: auto;
+    max-width: 1100px;
 }
 
 article{
