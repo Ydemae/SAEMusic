@@ -19,6 +19,12 @@
 .middle{
     padding: 10px;
 }
+.sumUp a{
+    text-decoration: none;
+}
+a{
+    color: inherit;
+}
 /*Css permettant la création de boites de contenu */
 .sumUp {
     margin : 30px 100px 30px 100px;
