@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" media="screen and (min-width:801px)" href="main.css" />
-    <link rel="stylesheet" media="screen and (max-width:800px)" href="mainmob.css" />
-    <meta name="viewport" content="width=max-device-width, initial-scale:1" />
+    <!--Utilisation d'un media pour mettre une condition à l'utilisation de chaque css, de cette manière le css s'adaptera à la résolution de l'écran (ou taille de la fenêtre)-->
+    <link rel="stylesheet" media="screen and (min-width:801px)" href="main.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="mainmob.css">
+    <meta name="viewport" content="width=max-device-width, initial-scale:1">
     <title>MusicPlace</title>
 </head>
+    <!--Affectation d'une classe spécifique au body afin de pouvoir modifier seulement cette page sans influer sur les autres body des autres pages-->
 <body class="pop">
+    <!--Barre de navigation-->
         <nav class="navbar">
             <div class="FlexNav">
                 <div class="NavTitle">MusicPlace</div>
                 <div class="Links">
+                    <!--Menu de navigation pour pc-->
                     <ul>
                         <li><a href="index.html">Accueil</a></li>
                         <li><a href="contact.html">Contact</a></li>
@@ -22,6 +26,7 @@
                         <li><a href="PRap.html">Rap</a></li>
                         <li><a href="Com.html">Com</a></li>
                     </ul>
+                    <!--Menu de navigation pour mobile-->
                     <div class="dropdown">
                         <div class="menu">Menu</div>
                         <div class="Delem">
@@ -37,12 +42,13 @@
                     </div>
                     </div>
                 </div>
-            </div>
         </nav>
-    <div class="middle">
+        <!--Permet de créer le bandeau central sur la page-->
+    <div class="middle transparentwhite">
         <h1 class="title first yellow">Style Pop</h1>
+        <!--Sommaire de la page-->
         <div class="sumUp pink">
-            <p>A retrouver sur cette page :</p>
+            <p>À retrouver sur cette page :</p>
             <ul>
                 <li><a href="#Pres">Présentation du style</a></li>
                 <li><a href="#PresM">Présentation Michael Jackson</a></li>
@@ -50,21 +56,24 @@
                 <li><a href="#Clip2">Clip vidéo illustrant le style</a></li>
             </ul>
         </div>
+        <!--Premier texte de la page qui présente le style Pop.-->
         <div class="Flex">
             <div id="Pres" class="textbox pink">
                 <p>Présentation du style:</p>
                 <p>Le style pop est un genre musical qui est apparu dans les années 1960 aux États-Unis. Le terme musique pop après 1967 est utilisé pour désigner un rock plus "soft" que le rock traditionnel plus énergétique. Ce style est basé sur les sentiments et parle majoritairement de chanson d'amour entre les hommes et les femmes.Ce sont majoritairement des chansons courtes associes à la danse. Lors de la reconstruction de l'europe en 1950 après la guerre, les industriels qui cherchent la rentabilité se rendent compte que les adolescents on leur pouvoir d'achat et l'art se commercialise, on parle de culutre de masse. La pop est le courant qui représente cette jeunnesse.</p>
             </div>
             <div class="contentbox pink">
-                <img class="redim" src="images/mickael jackson.jpg" alt="photo michael jackson" width="300px" height="400px">
+                <img class="redim" src="images/mickael-jackson.jpg" alt="photo michael jackson" width="300" height="400">
             </div>
         </div>
+        <!--Présentation de l'artiste 1-->
         <div id="PresM" class="Flex">
             <div class="textbox pink">
                 <p>Présentation Michael Jackson</p>  
                 <p>Mickeal Jackson est née le 29 aout 1958 et mort le 25juin 2009, il est auteur-compositeur-interprete, danseur-chorégraphe et acteur américain. Surnommé le roi de la pop et popularisent de nombreux pas de danse. Il a battu plusieurs records dans l'industrie du disque avec plus de 500 millions de disques vendus dans le monde. </p>
                 <p>Billie jean et une chanson parut dans l'album Thriller en 1982. La musique connait un grand succès commercial et c'est l'un des singles les plus vendus au monde avec plus de 10 millions d'exemplaires écoulés. Ce succès fait de Thriller l'album le plus vendu au monde et la chanson est sacrée 58<sup>e</sup> meilleure chanson de tous les temps par le magazine Rolling Stone en 2004.</p>
             </div>
+            <!--Affichage des photos et des videos des artistes-->
             <div id="Clip" class="contentbox pink">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Zi_XLOBDo_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -72,9 +81,10 @@
  
         <div class="Flex">
             <div class="contentbox pink">
-                <img class="redim" src="images/Spices girls.jpg" alt="photo michael jackson" width="520px" height="400px">
+                <img class="redim" src="images/Spices-girls.jpg" alt="photo Spices girls" width="520" height="400">
             </div>
         </div>
+        <!--Présentation du deuxième artiste-->
         <div class="Flex">
             <div id="PresS" class="textbox pink">
                 <p>Spices Girls</p>
@@ -86,7 +96,5 @@
             </div>
         </div>
     </div>
-
-
 </body>
 </html>
