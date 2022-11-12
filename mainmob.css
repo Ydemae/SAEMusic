@@ -1,5 +1,8 @@
 /* Css commun à toutes les pages */ 
 
+body{
+    font-family: Arial, sans-serif;
+}
 /*CSS permettant la mise en forme */
 .title {
     text-align: center;

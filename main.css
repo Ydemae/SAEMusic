@@ -3,10 +3,6 @@
 body{
     font-family: Arial, sans-serif;
 }
-a{
-    text-decoration: none;
-}
-
 /*Importation de la font neonSans*/
 @font-face {
     font-family: neonSans;
@@ -36,12 +32,10 @@ a{
 }
 a{
     color: inherit;
+    text-decoration: none;
 }
 .redim {
     max-width : 100%;
-}
-.sumUp a{
-    text-decoration: none;
 }
 /* Fin des classes de mise en forme */
 
