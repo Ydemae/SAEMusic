@@ -1,5 +1,4 @@
-/* Css commun à toutes les pages */ 
-
+/* Css commun à toutes les pages */
 body{
     font-family: Arial, sans-serif;
 }
@@ -76,7 +75,6 @@ a{
 .indexblue{
     background-color: #004E79;
 }
-
 /* CSS de la navbar*/
 .FlexNav{
     display: flex;
@@ -142,7 +140,6 @@ a{
 .pink{
     background-color: #EB00FF ;
 }
-
 /* CSS utilisé pour la page Rock */
 body.rock{
     background-color: #3A3A3A;
@@ -165,6 +162,10 @@ body.rap{
     background-color: rgba(15, 255, 255, 0.4);
     color: white;
 }
+/*CSS utilisé pour la page Pop*/
+body.pop {
+    background-color: #8D00CF;
+}
 /*CSS utilisé pour la page contact */
 body.contact{
     background-color: #000D81;
@@ -173,7 +174,6 @@ body.contact{
     padding: 10px 10px 10px 10px;
     margin: 0;
 }
-
 /*Css utilisé pour la page Accueil*/
 body.accueil{
     background-color: #58D7FF;
@@ -189,7 +189,6 @@ body.accueil{
 body.sony{
     background-color: #918b8b;
 }
-
 article{
     background-color: rgba(255, 255, 255, 0.4);
 }
