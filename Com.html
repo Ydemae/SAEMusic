@@ -2,16 +2,19 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <!--Utilisation d'un media pour mettre une condition à l'utilisation de chaque css, de cette manière le css s'adaptera à la résolution de l'écran (ou taille de la fenêtre)-->
     <link rel="stylesheet" media="screen and (min-width:801px)" href="main.css">
     <link rel="stylesheet" media="screen and (max-width:800px)" href="mainmob.css">
     <meta name="viewport" content="width=max-device-width, initial-scale:1">
     <title>MusicPlace</title>
 </head>
+<!--Affectation d'une classe spécifique au body afin de pouvoir modifier seulement cette page sans influer sur les autres body des autres pages-->
 <body class="sony">
         <nav class="navbar">
             <div class="FlexNav">
                 <div class="NavTitle">MusicPlace</div>
                 <div class="Links">
+                <!--Menu de navigation pour pc-->
                     <ul>
                         <li><a href="index.html">Accueil</a></li>
                         <li><a href="contact.html">Contact</a></li>
@@ -22,6 +25,7 @@
                         <li><a href="PRap.html">Rap</a></li>
                         <li><a href="Com.html">Com</a></li>
                     </ul>
+                    <!--Menu de navigation pour mobile-->
                     <div class="dropdown">
                         <div class="menu">Menu</div>
                         <div class="Delem">
@@ -35,12 +39,13 @@
                             <a href="Com.html">Com</a>  
                         </div>
                     </div>
-                    </div>
                 </div>
+            </div>
         </nav>
         <div>
                 <h1 class="title first">Communication</h1>
         <div class="sumUp">
+            <!--raccourcis sommaires-->
             <article>
                 <ul>
                     <li><a href="#DébutTxt"> 1<sup>e</sup> Paragraphe</a></li>
@@ -55,6 +60,7 @@
             </article>
         </div>
     </div>
+    <!--texte de communcation-->
     <article>
 <h2>Pour commencer</h2>
 <p id="DébutTxt">Lors de notre entretien, nous nous sommes mis d’accord sur la création d’un site sur les musiques des années 90. Il cherche à surfer sur une vague nostalgique pour les plus anciens et pour les plus jeunes, la possibilité de découvrir tout un répertoire.</p>
@@ -76,9 +82,9 @@
     </article>
     <article>
 <p id="Avant-dernier-paragraphe">En espérant que cette configuration conviendra à vos attentes. On se tient à votre disposition pour tous renseignements qu’il vous plairait de nous demander.</p>
-</article>
-<article>
+    </article>
+    <article>
 <p id="Bas-de-page">Cordialement, l’équipe de MusicPlace</p>
-</article>
+    </article>
 </body>
 </html>

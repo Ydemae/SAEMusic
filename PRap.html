@@ -2,16 +2,19 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
+        <!--Utilisation d'un media pour mettre une condition à l'utilisation de chaque css, de cette manière le css s'adaptera à la résolution de l'écran (ou taille de la fenêtre)-->
         <link rel="stylesheet" media="screen and (min-width:801px)" href="main.css">
         <link rel="stylesheet" media="screen and (max-width:800px)" href="mainmob.css">
         <meta name="viewport" content="width=max-device-width, initial-scale:1">
         <title>MusicPlace</title>
     </head>
+    <!--Affectation d'une classe spécifique au body afin de pouvoir modifier seulement cette page sans influer sur les autres body des autres pages-->
     <body class="rap">
         <nav class="navbar">
             <div class="FlexNav">
                 <div class="NavTitle">MusicPlace</div>
                     <div class="Links">
+                    <!--Menu de navigation pour pc-->
                         <ul>
                             <li><a href="index.html">Accueil</a></li>
                             <li><a href="contact.html">Contact</a></li>
@@ -22,6 +25,7 @@
                             <li><a href="PRap.html">Rap</a></li>
                             <li><a href="Com.html">Com</a></li>
                         </ul>
+                        <!--Menu de navigation pour mobile-->
                         <div class="dropdown">
                             <div class="menu">Menu</div>
                             <div class="Delem">
@@ -38,26 +42,32 @@
                     </div>
                 </div>
         </nav>
+        <!--Création du bandeau central bleu clair sur la page-->
         <div class="Rap_content">
             <div class="title red first"><h1>Rap</h1></div>
+            <!--Sommaire de la page-->
             <div class="sumUp darkblue"><p>À retrouver sur cette page</p>
             <ul>
+                <!--raccourcis sommaires-->
                 <li><a href="#Presentation-style">▲ Présentation du style</a></li>
                 <li><a href="#MC_Solaar">▬ MC Solaar ♪</a></li>
                 <li><a href="#IAM">▼ IAM ♫</a></li>
             </ul>
             </div>
+            <!--Présentation du style-->
             <div class="Flex" id="Presentation-style">
                 <div class="contentbox darkblue"><p>Présentation du style</p>
                 <p>Le rap est un genre musical tirant ses origines du hip-hop. Il est apparu pour ses débuts dans les années 70 dans des ghettos américains, il se caractérise par ses rimes qui sont très rythmées et est utilisé à son départ pour montrer certaines manières de vie. Ensuite le rap gagnera en popularité et ira se développer en France et même par la suite le monde entier. Ce genre sera utilisé par de nombreux groupes, notamment Claude M'Barali ou MC Solaar et IAM qui vont permettrent au rap de devenir plus populaire en France dans les années 90. Nous verrons donc par la suite ces auteurs.</p></div>
                 <div class="contentbox darkblue"><img src="images/MC_Solaar.jpg" alt="MC Solaar" title="MC Solaar" width="400" height="400"></div>
             </div>
+            <!--Premier bloc de la page qui permet de présenter de style rap-->
             <div class="Flex" id="MC_Solaar">
                 <div class="contentbox darkblue"><iframe width="560" height="315" src="https://www.youtube.com/embed/MNYsmMDZfiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                 <div class="contentbox darkblue"><p>MC Solaar</p>
                 <p>Né le 5 Mars 1969 au Sénégal, il est un auteur, poète et interprète français d'origine Tchadienne. C'est un artiste qui a popularisé le rap en France dans les premiers, alors qu'il avait 6 mois la situation politique du Tchad oblige sa famille à quitter le pays, ils vont ensuite rejoindre l'Île-de-France. Cette situation sera évoquée dans ces titres connus comme "Bouge de là".</p>
                 <p>Bouge de là est un single de MC Solaar qui sortira en 1990, il sera considéré comme le premier grand tube du rap français. Son single sera dans le Top 50 en France pendant quatorze semaines à la suite et atteindra la position de 22<sup>e</sup> la semaine du 28 septembre 1991. Selon InfoDisc, il aurait été vendu sous 51 000 exemplaires</p></div>
             </div>
+            <!--Dernier bloc pour présenter le deuxième artiste-->
             <div class="Flex" id="IAM">
                 <div class="contentbox darkblue"><img src="images/Iam.jpg" alt="groupe IAM jeune" title="groupe IAM" width="600" height="338"></div>
             </div>
@@ -68,6 +78,7 @@
                     <p>Je dance le mia, une chanson de l'album "Ombre et lumière" est le deuxième single le plus vendu en 1994 en France, avec 250 000 ventes. C'est un morceau de rap français qui est inhabituel, il n'y a pas de chanson de danse, elle est plutôt au sujet de la fuite de temps</p></div>
                 <div class="contentbox darkblue"><iframe width="560" height="315" src="https://www.youtube.com/embed/7ceNf9qJjgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             </div>
+            <!--Raccourci pour remonter en haut de page-->
             <a href="#"><h2>Revenir en haut de page</h2></a>
         </div>
     </body>
