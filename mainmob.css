@@ -1,5 +1,8 @@
 /* Css commun à toutes les pages */ 
 
+body{
+    font-family: Arial, sans-serif;
+}
 /*CSS permettant la mise en forme */
 .title {
     text-align: center;
@@ -55,6 +58,12 @@ a{
 }
 .blue{
     background-color: #0038FF;
+}
+.darkblue{
+    background-color: rgba(119, 0, 255, 0.4);
+}
+.red{
+    background-color: rgba(251, 131, 163, 1);;
 }
 @font-face {
     font-family: neonSans;
@@ -151,7 +160,11 @@ body.elec {
 .space{
     margin-top: 50px;
 }
-
+/*CSS utilisé pour la page Rap*/
+body.rap{
+    background-color: rgba(15, 255, 255, 0.4);
+    color: white;
+}
 /*CSS utilisé pour la page contact */
 body.contact{
     background-color: #000D81;
@@ -179,5 +192,4 @@ body.sony{
 
 article{
     background-color: rgba(255, 255, 255, 0.4);
-    
 }
